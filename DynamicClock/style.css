@@ -67,7 +67,7 @@ body>#startClock {
     left:53%;
 }
 
-p{
-    position:absolute;
-    top:78%;
+.colons{
+    font-size: 2rem; 
+    color: white;
 }
