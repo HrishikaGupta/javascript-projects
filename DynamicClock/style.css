@@ -1,0 +1,73 @@
+body{
+    background-image: url("blackBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 1390px;
+}
+
+#firstdiv{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background:rgba(255,255,255,0.2); 
+    display:flex;
+    align-items: center;
+    overflow:hidden;
+    width:52rem;
+}
+
+.equalSpan{
+    width:12rem;
+    height:13rem;
+    margin-left: 1rem;
+   background: 	#555555 ;
+    display: inline-block;
+    text-align: center; 
+    font-size: 6rem; 
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    color: white;
+    border: 0.2rem solid black;
+    vertical-align: middle;
+    line-height:11rem;
+}
+
+#showAMPM{
+    margin-right: 1rem;
+}
+
+button {
+    /* background:black; Green */
+    background: linear-gradient(#000000	,#282828,#686868,#282828,#000000);
+    border: 0.2rem solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;   
+    width:12rem;
+  }
+
+button:hover{
+    border-width: 0.1rem;
+}
+
+body>#startClock {
+    /* border-color: yellow; */
+    position:absolute;
+    top:80%;
+    left:33%; 
+    
+}
+
+#stopClock {
+    position:absolute;
+    top:80%;
+    left:53%;
+}
+
+p{
+    position:absolute;
+    top:78%;
+}
