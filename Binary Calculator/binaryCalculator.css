@@ -1,0 +1,33 @@
+h1{
+    color:black;
+    text-align: center;
+    text-shadow: 0 2px white, 0 3px #777;
+    font-family: 'sans-serif';
+    margin-top: 10%;
+}
+
+#calci {
+    position:absolute;
+    width:45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#res{
+    background-color:lightgray;
+    height:48px;
+    font-size:20px;
+    width: 96.5%;
+    margin:1px;
+    border:black 1px solid;
+}
+
+.btn {
+    width:24%;
+    height:39px;
+    font-size:18px;
+    margin: 1px;
+    float:left;
+    background-color: gray;
+}
